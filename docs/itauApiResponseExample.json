@@ -1,0 +1,98 @@
+{
+    "beneficiario": {
+        "codigo_banco_beneficiario": "341",
+        "digito_verificador_banco_beneficiario": "7",
+        "agencia_beneficiario": "5190",
+        "conta_beneficiario": "00036",
+        "digito_verificador_conta_beneficiario": "3",
+        "cpf_cnpj_beneficiario": "04638015000130",
+        "nome_razao_social_beneficiario": "ZENITE EMP EDUCACIONAIS LTDA",
+        "logradouro_beneficiario": "RUA ALAMEDA BONS AYRES",
+        "bairro_beneficiario": "BROTAS",
+        "complemento_beneficiario": "",
+        "cidade_beneficiario": "SALVADOR",
+        "uf_beneficiario": "BA",
+        "cep_beneficiario": "40295230"
+    },
+    "pagador": {
+        "cpf_cnpj_pagador": "27119334000135",
+        "nome_razao_social_pagador": "EMPREENDEDOR SIMPLES E LEGAL C",
+        "logradouro_pagador": "AV. PEDROSO DE MORAIS",
+        "complemento_pagador": "",
+        "bairro_pagador": "PINHEIROS",
+        "cidade_pagador": "SãO PAULO",
+        "uf_pagador": "",
+        "cep_pagador": "05419000"
+    },
+    "sacador_avalista": {
+        "cpf_cnpj_sacador_avalista": "00000000000000",
+        "nome_razao_social_sacador_avalista": ""
+    },
+    "moeda": {
+        "sigla_moeda": "R$",
+        "quantidade_moeda": 0.09933,
+        "cotacao_moeda": 0
+    },
+    "especie_documento": "CPS",
+    "vencimento_titulo": "2021-07-20",
+    "tipo_carteira_titulo": "109",
+    "nosso_numero": "071459797",
+    "seu_numero": "",
+    "codigo_barras": "34191868700000099331090714597975190000363000",
+    "numero_linha_digitavel": "34191090731459797519300003630001186870000009933",
+    "local_pagamento": "ATE O VENCIMENTO PAGUE EM QUALQUER BANCO OU CORRESPONDENTE NAO BANCARIO. APOS O VENCIMENTO, ACESSE ITAU.COM.BR/BOLETOS E PAGUE EM QUALQUER BANCO OU CORRESPONDENTE NAO BANCARIO.",
+    "data_processamento": "2021-06-23",
+    "data_emissao": "2021-06-15",
+    "uso_banco": "",
+    "valor_titulo": 99.33,
+    "valor_desconto": 0,
+    "valor_outra_deducao": 0,
+    "valor_juro_multa": 0,
+    "valor_outro_acrescimo": 0,
+    "valor_total_cobrado": 0,
+    "lista_texto_informacao_cliente_beneficiario": [
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        },
+        {
+            "texto_informacao_cliente_beneficiario": ""
+        }
+    ]
+}
+/* dados de exemplo para envio
+$pagador = array(
+    "cpf_cnpj_pagador" => "27119334000135",
+    "nome_pagador" => "EMPREENDEDOR SIMPLES E LEGAL Cxxxxxxxx",
+    "logradouro_pagador" => "Av. Pedroso de Morais",
+    "bairro_pagador" => "Pinheiros",
+    "cidade_pagador" => "São Paulo",
+    "uf_pagador" => "SP",
+    "cep_pagador" => "05419000",
+    "grupo_email_pagador" => array(
+        "email_pagador" => "testebimworks@outlook.com",
+    ),
+);
+$boleto = $SSW_ITAUI->registerBoleto(99.33, new DateTime('2021-07-01'), $pagador);
+$boletoLink = getBoletoLink($boleto);
+*/
